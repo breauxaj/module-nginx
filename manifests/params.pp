@@ -14,7 +14,6 @@ class nginx::params {
         default: {
           case $::operatingsystemmajrelease {
             default: {
-              
             }
           }
         }
